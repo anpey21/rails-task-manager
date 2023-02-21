@@ -1,0 +1,9 @@
+<h1>TASK MANAGER</h1>
+<ul>
+  <% @tasks.each do |task| %>
+    <li>
+      <%= task.title %> - <%= task.details %>
+    </li>
+</ul>
+  <% end %>
+  <button>Create new task</button>
